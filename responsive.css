@@ -1,0 +1,61 @@
+/* Example of MS media query: '@-ms-viewport' */
+
+/* Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.mainHeader p {
+	font-size: 2.0rem;
+	}
+
+	.mainHeader h1 {
+	font-size: 2.9rem;
+	}
+
+	.appContainer p {
+	font-size: 1.5rem;
+	}
+	.nav {
+	font-size: 1.5rem;
+	}
+	.charSelectorWrap .row {
+	font-size: 1.5rem;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.mainHeader {
+	text-align: left;
+	}
+	.mainHeader p {
+	font-size: 2.3rem;
+	}
+
+	.mainHeader h1 {
+	font-size: 3.2rem;
+	}
+
+	.appContainer p {
+	font-size: 1.6rem;
+	}
+	.nav {
+	font-size: 1.8rem;
+	}
+	.charSelectorWrap .row, .charSelectorWrap .row p {
+	font-size: 1.7rem;
+	justify-content: left;
+	}
+	.charSelectorWrap .row {
+	padding-left: 12px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
